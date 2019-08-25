@@ -1,0 +1,5 @@
+.idea
+dist
+dist-dev
+dist-self
+node_modules

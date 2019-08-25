@@ -1,0 +1,38 @@
+{
+  "name": "sapinsidetrack-sydney-2019-09",
+  "version": "1.0.0",
+  "description": "SAP Inside Track - Sydney / Australia - 12/09/2019",
+  "main": "index.js",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build",
+    "build-self": "ui5 build self-contained --all --dest=dist-self",
+    "build-dev": "ui5 build dev --include-task=generateComponentPreload --dest=dist-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mauriciolauffer/SAPInsideTrack-Sydney-2019-09.git"
+  },
+  "keywords": [
+    "SAP Inside Track",
+    "sit",
+    "sitSYD",
+    "Sydney",
+    "Australia",
+    "ui5",
+    "ui5-tooling"
+  ],
+  "author": "Mauricio Lauffer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mauriciolauffer/SAPInsideTrack-Sydney-2019-09/issues"
+  },
+  "homepage": "https://github.com/mauriciolauffer/SAPInsideTrack-Sydney-2019-09#readme",
+  "dependencies": {
+    "@openui5/sap.m": "^1.69.1",
+    "@openui5/sap.ui.core": "^1.69.1",
+    "@openui5/sap.ui.support": "^1.69.1",
+    "@openui5/themelib_sap_belize": "^1.69.1"
+  },
+  "devDependencies": {}
+}

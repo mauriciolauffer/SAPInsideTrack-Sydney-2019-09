@@ -1,0 +1,29 @@
+{
+  "sap.app": {
+    "id": "mlauffer.sapinsidetrack.sydney.201909",
+    "type": "application",
+    "i18n": "i18n/i18n.properties"
+  },
+  "sap.ui5": {
+    "dependencies": {
+      "libs": {
+        "sap.ui.core": {},
+        "sap.m": {}
+      }
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "mlauffer.sapinsidetrack.sydney.201909.i18n.i18n"
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "mlauffer.sapinsidetrack.sydney.201909.view.App",
+      "id": "rootApp",
+      "type": "XML",
+      "async": true
+    }
+  }
+}

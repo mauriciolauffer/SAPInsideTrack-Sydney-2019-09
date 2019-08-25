@@ -1,0 +1,16 @@
+<mvc:View displayBlock="true" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+    <Shell>
+        <App>
+            <Page title="{i18n>title}">
+                <Text text="{i18n>ui5}" />
+                <footer>
+                    <Toolbar>
+                        <ToolbarSpacer/>
+                        <Text text="¯\_(ツ)_/¯" />
+                        <ToolbarSpacer/>
+                    </Toolbar>
+                </footer>
+            </Page>
+        </App>
+    </Shell>
+</mvc:View>
