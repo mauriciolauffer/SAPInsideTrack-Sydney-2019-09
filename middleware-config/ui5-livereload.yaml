@@ -1,0 +1,11 @@
+specVersion: '1.0'
+metadata:
+  name: sapinsidetrack-sydney-2019-09
+type: application
+
+server:
+  customMiddleware:
+    - name: ui5-middleware-livereload
+      afterMiddleware: compression
+      configuration:
+        path: webapp
